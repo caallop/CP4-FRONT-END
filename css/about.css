@@ -1,0 +1,25 @@
+.celular {
+    width: 544px;
+    height: 558px;
+}
+
+.about {
+    max-width: 640px;
+    max-height: 250px;
+}
+
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 80px 132px;
+}
+
+.celular-caixa {
+    width: 544;
+    height: 558;
+
+}

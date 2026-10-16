@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+}
+
+.features-section {
+    padding: 80px 32px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.caixas {
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex: 0 0 280px;
+    flex-direction: column;
+    gap: 16px;
+    width: 280px;
+    height: 400px;
+    padding: 40px 32px;
+    border: 1px solid #27272A;
+    border-radius: 24px;
+    background-color: #18181B;
+
+}
+
+.caixas.caixa-destaque {
+    flex-basis: 592px;
+    width: 592px;
+}
+
+.caixas .icons {
+    flex: 0 0 32px;
+    width: 32px;
+    height: 32px;
+}
+
+.caixas .titulo-features {
+    margin: 0;
+    color: #F4F4F5;
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -1.28px;
+    text-align: left;
+}
+
+.caixas p {
+    margin: 0;
+    color: #A1A1AA;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.caixa-2,
+.conteudo-musica {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 256px;
+}
+
+.caixa-2 .titulo-features,
+.conteudo-musica .titulo-features,
+.conteudo-pessoas .titulo-features {
+    margin-top: 8px;
+}
+
+.celular-show,
+.celular-pessoas,
+.celular-musica {
+    position: absolute;
+    z-index: 0;
+    width: 240px;
+    height: auto;
+}
+
+.celular-show {
+    top: -118px;
+    right: 32px;
+}
+
+.celular-pessoas {
+    top: -108px;
+    left: 32px;
+}
+
+.conteudo-pessoas {
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    right: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 256px;
+}
+
+.celular-musica {
+    top: 122px;
+    right: 32px;
+}
+
